@@ -14,6 +14,8 @@
 		A3CBB764200717D800D6A2D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3CBB762200717D800D6A2D5 /* LaunchScreen.storyboard */; };
 		A3CBB76F200717D800D6A2D5 /* TableViewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CBB76E200717D800D6A2D5 /* TableViewExampleTests.swift */; };
 		A3CBB77A200717D800D6A2D5 /* TableViewExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CBB779200717D800D6A2D5 /* TableViewExampleUITests.swift */; };
+		A3CBB7882007194600D6A2D5 /* FruitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CBB7872007194600D6A2D5 /* FruitsTableViewController.swift */; };
+		A3CBB78A20071D4F00D6A2D5 /* FruitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CBB78920071D4F00D6A2D5 /* FruitTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A3CBB775200717D800D6A2D5 /* TableViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3CBB779200717D800D6A2D5 /* TableViewExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExampleUITests.swift; sourceTree = "<group>"; };
 		A3CBB77B200717D800D6A2D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3CBB7872007194600D6A2D5 /* FruitsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsTableViewController.swift; sourceTree = "<group>"; };
+		A3CBB78920071D4F00D6A2D5 /* FruitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				A3CBB760200717D800D6A2D5 /* Assets.xcassets */,
 				A3CBB762200717D800D6A2D5 /* LaunchScreen.storyboard */,
 				A3CBB765200717D800D6A2D5 /* Info.plist */,
+				A3CBB7872007194600D6A2D5 /* FruitsTableViewController.swift */,
+				A3CBB78920071D4F00D6A2D5 /* FruitTableViewCell.swift */,
 			);
 			path = TableViewExample;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3CBB78A20071D4F00D6A2D5 /* FruitTableViewCell.swift in Sources */,
 				A3CBB75C200717D700D6A2D5 /* ViewController.swift in Sources */,
+				A3CBB7882007194600D6A2D5 /* FruitsTableViewController.swift in Sources */,
 				A3CBB75A200717D700D6A2D5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,7 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K47XFPHWTJ;
+				DEVELOPMENT_TEAM = 695E8J3HA4;
 				INFOPLIST_FILE = TableViewExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Test.TableViewExample;
@@ -442,7 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K47XFPHWTJ;
+				DEVELOPMENT_TEAM = 695E8J3HA4;
 				INFOPLIST_FILE = TableViewExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Test.TableViewExample;
